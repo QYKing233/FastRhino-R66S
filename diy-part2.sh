@@ -12,8 +12,8 @@
 
 
 # Remove default luci-theme-argon
-# rm -rf feeds/luci/themes/luci-theme-argon 
-
+rm -rf feeds/luci/themes/luci-theme-argon 
+rm -rf feeds/luci/application/luci-argon-config
 
 
 # Modify golang_version
