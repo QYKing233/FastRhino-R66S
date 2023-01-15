@@ -16,11 +16,6 @@ rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf feeds/luci/applications/luci-app-argon-config
 
 
-# Modify golang_version
-rm -rf feeds/packages/lang/golang
-svn export https://github.com/sbwml/packages_lang_golang/branches/19.x feeds/packages/lang/golang
-
-
 # Modify luci-theme-argon background images
 pushd package/community/luci-theme-argon/htdocs/luci-static/argon/img
 cp $GITHUB_WORKSPACE/data/bg1.jpg .
